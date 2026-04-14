@@ -22,11 +22,6 @@ int main()
         // clear window
         window.clear(sf::Color::White);
 
-        int cell_size = WIN_WIDTH / GRID_SIZE;
-
-        sf::RectangleShape cell(sf::Vector2f(cell_size - 1.0f, cell_size - 1.0f));
-        cell.setFillColor(sf::Color::Black);
-
         // display window
         window.display();
     }
